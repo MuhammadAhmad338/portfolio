@@ -1,0 +1,26 @@
+.principle-icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.principle-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8%;
+    gap: 12px;
+    color: white;
+}
+
+.principle-container {
+    height: 100px;
+    width: 7px;
+    background-color: darkgoldenrod;
+}
+
+
