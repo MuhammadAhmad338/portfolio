@@ -34,7 +34,7 @@ const Header = () => {
             <ul className='header-list'>
                 <li onClick={() => navigate("/")}>Home</li>
                 <li>Blog</li>
-                <li>Projects</li>
+                <li onClick={() => navigate("/projects")}>Projects</li>
                 <li>Experience</li>
                 <li onClick={() => navigate("/contact")}>Contact</li>
             </ul>
