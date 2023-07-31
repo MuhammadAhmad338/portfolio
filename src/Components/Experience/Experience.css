@@ -1,0 +1,35 @@
+.experience {
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 20px;
+}
+
+.experience-main-title {
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    margin-top: 12px;
+    text-decoration: underline darkgoldenrod;
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-left: 12%;
+}
+
+.experience-line {
+    height: 67rem;
+    width: 1px;
+    background-color: white;
+}
+
+.experience-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

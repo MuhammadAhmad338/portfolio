@@ -1,0 +1,32 @@
+.experience-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    max-width: 550px;
+    gap: 10px;
+    color: white;
+    padding-left: 12px;
+}
+
+.experience-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 16px;
+}
+
+.experience-item-line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.experience-icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+}

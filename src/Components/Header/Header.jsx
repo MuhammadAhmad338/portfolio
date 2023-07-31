@@ -44,7 +44,7 @@ const Header = () => {
                 <li onClick={() => navigate("/")}>Home</li>
                 <li>Blog</li>
                 <li onClick={() => navigate("/projects")}>Projects</li>
-                <li>Experience</li>
+                <li onClick={() => navigate("/experience")}>Experience</li>
                 <li onClick={() => navigate("/contact")}>Contact</li>
             </ul>
             <div className='dark-mode'>
