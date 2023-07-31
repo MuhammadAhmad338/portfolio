@@ -24,7 +24,7 @@ const Footer = () => {
             <FiFacebook size={25} />
         </div>
         <div className='footer-copyright'>
-              CopyRight Muhammad Ahmad, All Right Reserved
+               Muhammad Ahmad, All Right Reserved
         </div>
     </div>
   );

@@ -5,12 +5,14 @@ import { SiDart } from 'react-icons/si';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { CiCircleRemove } from 'react-icons/ci';
 import { AiFillAppstore } from 'react-icons/ai';
+import { useNavigate } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
 
     const [state, setstate] = useState(false);
     const [drawer, setdrawer] = useState(false);
+    const navigate = useNavigate();
 
     return (
         <div className='header'>
@@ -20,7 +22,7 @@ const Header = () => {
             </div>
             {drawer && <div className='menu-bar-drawer'>
                 <CiCircleRemove onClick={() => setdrawer(false)} size={50} />
-                <a href="#" className="menu-item">Home</a>
+                <a href="#"  className="menu-item">Home</a>
                 <a href="#" className="menu-item">Blog</a>
                 <a href="#" className="menu-item">Projects</a>
                 <a href="#" className='menu-item'>Experience</a>
@@ -30,11 +32,11 @@ const Header = () => {
                 <AiFillAppstore size={40} />
             </div>
             <ul className='header-list'>
-                <li>Home</li>
+                <li onClick={() => navigate("/")}>Home</li>
                 <li>Blog</li>
                 <li>Projects</li>
                 <li>Experience</li>
-                <li>Contact</li>
+                <li onClick={() => navigate("/contact")}>Contact</li>
             </ul>
             <div className='dark-mode'>
                 {!state && <MdOutlineLightMode onClick={() => setstate(true)} size={30} />}

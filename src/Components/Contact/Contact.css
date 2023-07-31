@@ -1,0 +1,87 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 768px;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.contact-title {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline darkgoldenrod;
+}
+
+.contact-desc {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-form label {
+    margin-top: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.contact-form input {
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 12px;
+}
+
+.contact-form textarea {
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 12px;
+}
+
+.contact-button {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px 15px;
+    background-color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.contact-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 7px;
+}
+
+.contact-link-desc {
+    max-width: 380px;
+    color: white;
+    font-size: 16px;
+}
+
+.contact-links li {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    gap: 10px;
+    text-decoration: underline white;
+}
