@@ -31,7 +31,10 @@ const Header = () => {
                     navigate('/Projects'),
                     setdrawer(false)
                 }} className="menu-item">Projects</div>
-                <div className='menu-item'>Experience</div>
+                <div onClick={() => {
+                    navigate("/experience"),
+                    setdrawer(false)
+                }} className='menu-item'>Experience</div>
                 <div onClick={() => {
                     navigate("/contact"),
                         setdrawer(false)
