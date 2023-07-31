@@ -22,11 +22,20 @@ const Header = () => {
             </div>
             {drawer && <div className='menu-bar-drawer'>
                 <CiCircleRemove onClick={() => setdrawer(false)} size={50} />
-                <a href="#"  className="menu-item">Home</a>
-                <a href="#" className="menu-item">Blog</a>
-                <a href="#" className="menu-item">Projects</a>
-                <a href="#" className='menu-item'>Experience</a>
-                <a href="#" className='menu-item'>Contact</a>
+                <div onClick={() => {
+                    navigate("/"),
+                        setdrawer(false)
+                }} className="menu-item">Home</div>
+                <div className="menu-item">Blog</div>
+                <div onClick={() => {
+                    navigate('/Projects'),
+                    setdrawer(false)
+                }} className="menu-item">Projects</div>
+                <div className='menu-item'>Experience</div>
+                <div onClick={() => {
+                    navigate("/contact"),
+                        setdrawer(false)
+                }} className='menu-item'>Contact</div>
             </div>}
             <div className='header-title'>
                 <AiFillAppstore size={40} />
