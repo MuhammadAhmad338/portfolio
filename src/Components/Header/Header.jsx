@@ -26,14 +26,18 @@ const Header = () => {
                     navigate("/"),
                         setdrawer(false)
                 }} className="menu-item">Home</div>
-                <div className="menu-item">Blog</div>
+                <div onClick={() => {
+                    navigate('/blog'),
+                        setdrawer(false)
+                }}
+                    className="menu-item">Blog</div>
                 <div onClick={() => {
                     navigate('/Projects'),
-                    setdrawer(false)
+                        setdrawer(false)
                 }} className="menu-item">Projects</div>
                 <div onClick={() => {
                     navigate("/experience"),
-                    setdrawer(false)
+                        setdrawer(false)
                 }} className='menu-item'>Experience</div>
                 <div onClick={() => {
                     navigate("/contact"),
@@ -45,7 +49,7 @@ const Header = () => {
             </div>
             <ul className='header-list'>
                 <li onClick={() => navigate("/")}>Home</li>
-                <li>Blog</li>
+                <li onClick={() => navigate("/blog")}>Blog</li>
                 <li onClick={() => navigate("/projects")}>Projects</li>
                 <li onClick={() => navigate("/experience")}>Experience</li>
                 <li onClick={() => navigate("/contact")}>Contact</li>

@@ -1,0 +1,15 @@
+.blog {
+    margin: 12px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+}
+
+.latest-post {
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    text-decoration: underline goldenrod;
+}
