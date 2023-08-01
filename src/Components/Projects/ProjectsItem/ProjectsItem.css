@@ -15,7 +15,6 @@
     transform: scale(1.04);
 }
 
-
 .image  {
     width: 200px;
     height: 200px;
@@ -24,7 +23,7 @@
 .project-Item-details {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
     gap: 12px;
     margin-top: 8px;
@@ -32,7 +31,8 @@
 }
 
 .project-Item-details p {
-    margin-right: 42px;
+    word-break: break-all;
+    margin-right: 50px;
 }
 
 .project-button {

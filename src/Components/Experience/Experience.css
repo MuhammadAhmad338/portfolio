@@ -19,11 +19,11 @@
     display: flex;
     flex-direction: row;
     gap: 12px;
-    padding-left: 12%;
+    padding-left: 13%;
 }
 
 .experience-line {
-    height: 67rem;
+    height: 50rem;
     width: 1px;
     background-color: white;
 }

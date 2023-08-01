@@ -8,6 +8,7 @@ import { SiMongodb } from 'react-icons/si';
 import { DiNodejs } from 'react-icons/di';
 import { DiJavascript1 } from 'react-icons/di';
 import { SiTypescript } from 'react-icons/si';
+import { RiReactjsFill } from 'react-icons/ri';
 import './ExperienceItem.css';
 
 const ExperienceItem = () => {
@@ -33,6 +34,7 @@ const ExperienceItem = () => {
                 <DiNodejs size={30} />
                 <DiJavascript1 size={30} />
                 <SiTypescript size={30} />
+                <RiReactjsFill size={30} />
             </div>
             <div className='experience-item-line'></div>
         </div>

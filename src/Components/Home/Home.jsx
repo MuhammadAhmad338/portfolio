@@ -1,6 +1,8 @@
 import React from 'react';
 import img from '../../assets/portfolio.png';
 import Principle from './Principles/Principles';
+import BlogItem from '../Blog/BlogItem/BlogItem';
+import ProjectsItem from '../Projects/ProjectsItem/ProjectsItem';
 import './Home.css';
 
 const Home = () => {
@@ -24,8 +26,26 @@ const Home = () => {
                         <img src={img} alt="" height={300} width={300} />
                     </div>
                 </div>
+                <Principle />
             </div>
-            <Principle />
+            <div className='latest-blogs'>
+                <div className='latest-blogs-title'>
+                    <p>My latest</p>
+                    <h1>Blog Posts.</h1>
+                </div>
+                <BlogItem />
+                <BlogItem />
+                <BlogItem />
+            </div>
+            <div className='latest-projects'>
+                <div className='latest-projects-title'>
+                    <p>My recent</p>
+                    <h1>Projects.</h1>
+                </div>
+                <ProjectsItem title={"MuhammadAhmad"} description={"asdasdsqqdwewqeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeadasdasdasdasdaswwwwwwerqrwwqrwqrwqrqwrwqrwqrwqrqwrwqrqwrr "} image={img} />
+                <ProjectsItem title={"MuhammadZaid"} description={"asdasdasdasdasdasdssssssssssssssssssaaaaaaaaaaaaaaaaaaaaadddddddddd"} image={img} />
+                <ProjectsItem title={"MuhammadAbdullah"} description={"asdasdasdasdasqweqwqweqweqweqweqweqwewqewqeqweqweqweqweqweqweqw"} image={img} />
+            </div>
         </>
     );
 }
