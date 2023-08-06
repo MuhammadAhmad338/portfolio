@@ -22,9 +22,11 @@ const Home = () => {
                             applications are my specialty, along with strong architecture and solutions skills.
                         </div>
                     </div>
-                    <div className='home-right'>
-                        <img src={img} alt="" height={300} width={300} />
-                    </div>
+                  
+                       <div className='circle-avatar'>
+                      
+                       </div>
+                    
                 </div>
                 <Principle />
             </div>

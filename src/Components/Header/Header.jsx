@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { MdDarkMode } from 'react-icons/md';
 import { MdOutlineLightMode } from 'react-icons/md';
-import { SiDart } from 'react-icons/si';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { CiCircleRemove } from 'react-icons/ci';
 import { AiFillAppstore } from 'react-icons/ai';
 import { useNavigate } from 'react-router-dom';
+import img from '../../assets/portfolio.png';
 import './Header.css';
 
 const Header = () => {
@@ -18,7 +18,9 @@ const Header = () => {
         <div className='header'>
             <div className='header-icon'>
                 <AiOutlineMenu className='outline-icon' onClick={() => setdrawer(true)} size={30} />
-                <SiDart className='si-dart' size={30} />
+                <div className='header-avatar'>
+                    
+                </div>
             </div>
             {drawer && <div className='menu-bar-drawer'>
                 <CiCircleRemove onClick={() => setdrawer(false)} size={50} />
